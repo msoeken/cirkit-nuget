@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Json" Version="4.5.0" />
+    <None Include="runtimes/win-x64/native/cirkit_c.dll" Pack="true" PackagePath="runtimes/win-x64/native" />
     <None Include="runtimes/macos/native/libcirkit_c.dylib" Pack="true" PackagePath="runtimes/macos/native" />
     <None Include="runtimes/macos/native/libcirkit_c.dylib" Pack="true" PackagePath="runtimes/osx/native" />
   </ItemGroup>
