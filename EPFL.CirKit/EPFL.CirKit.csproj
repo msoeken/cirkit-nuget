@@ -5,7 +5,7 @@
     <LangVersion>7.1</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>EPFL.CirKit</PackageId>
-    <Version>3.0.2.3</Version>
+    <Version>3.0.2.4</Version>
     <Authors>Mathias Soeken</Authors>
     <Company>EPFL</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

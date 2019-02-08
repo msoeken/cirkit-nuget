@@ -9,13 +9,13 @@ namespace EPFL
   {
     private class Lib
     {
-      [DllImport("libcirkit_c", EntryPoint = "cirkit_create")]
+      [DllImport("cirkit_c", EntryPoint = "cirkit_create")]
       public static extern IntPtr cirkit_create();
 
-      [DllImport("libcirkit_c", EntryPoint = "cirkit_delete")]
+      [DllImport("cirkit_c", EntryPoint = "cirkit_delete")]
       public static extern void cirkit_delete(IntPtr cli);
 
-      [DllImport("libcirkit_c", EntryPoint = "cirkit_command")]
+      [DllImport("cirkit_c", EntryPoint = "cirkit_command")]
       public static extern int cirkit_command(IntPtr cli, string command, StringBuilder log, int size);
     }
 

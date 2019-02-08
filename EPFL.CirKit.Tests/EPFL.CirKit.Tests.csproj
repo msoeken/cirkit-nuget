@@ -9,6 +9,6 @@
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
-    <PackageReference Include="EPFL.CirKit" Version="3.0.2.3" />
+    <PackageReference Include="EPFL.CirKit" Version="3.0.2.4" />
   </ItemGroup>
 </Project>
