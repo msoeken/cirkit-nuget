@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.1</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>EPFL.CirKit</PackageId>
+    <Version>3.0.2.3</Version>
+    <Authors>Mathias Soeken</Authors>
+    <Company>EPFL</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/msoeken/cirkit</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/msoeken/cirkit.git</RepositoryUrl>
+    <Language>en</Language>
+    <PackageTags>logic synthesis;And-inverter graph;Majority-inverter graph;LUT mapping</PackageTags>
+    <title>CirKit .NET bindings</title>
+    <Description>Logic synthesis framework based on the EPFL Logic Synthesis Libraries</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Json" Version="4.5.0" />
+    <None Include="runtimes/macos/native/libcirkit_c.dylib" Pack="true" PackagePath="runtimes/macos/native" />
+    <None Include="runtimes/macos/native/libcirkit_c.dylib" Pack="true" PackagePath="runtimes/osx/native" />
+  </ItemGroup>
+</Project>
